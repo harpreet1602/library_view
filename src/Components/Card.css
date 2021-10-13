@@ -1,0 +1,89 @@
+.Card{
+    background: #FFFFFF;
+    border-radius: 10px;
+    height:15rem;
+    width:25rem;
+    position:relative;
+    padding:20px;
+    margin:1em;
+}
+.cardupper{
+    display:flex;
+}
+.level{
+    background: #DAD7FE;
+    border-radius: 6px;
+    height:1.5rem;
+    width:5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    position:absolute;
+    right:30px;
+    height:1.5rem;
+    width:5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    height:2.5rem; 
+    width:20rem;
+    display:flex;
+    align-items: center;
+    font-size:x-large;
+}
+.skill{
+    display:flex;
+    margin-top:0.2rem;
+}
+.skilllevel
+{
+    background: #FFF5CC;
+    border-radius: 6px;
+    width:15rem;
+    height:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+.skilltext{
+    display:flex;
+    align-items: center;    
+    margin-right:10px;
+}
+.tag .skilltext{
+    display:block;
+}
+.type,.tag{
+    margin-top:0.5rem;
+    display:flex;
+}
+
+
+@media(max-width:673px){
+    .Card{
+        height:12rem;
+        width:10rem;
+        position:relative;
+        padding:5px;
+        font-size:10px;
+    }
+    .cardupper{
+        display:flex;
+    }
+    .level{
+        width:3rem;
+    }
+    .score{
+        right:5px;
+        width:3rem;
+    }
+    .question{
+        height:2.5rem; 
+        width:8rem;
+        font-size:12px;
+    }
+}

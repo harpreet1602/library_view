@@ -1,0 +1,72 @@
+.Navbar{
+    background: #FFFFFF;
+    display:flex;
+    height:5rem;
+    align-items: center;
+}
+.options{
+    display:flex;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.option{
+    display:flex;
+    justify-content: space-evenly;
+    width:8rem;  
+}
+.createbtn{
+    display:flex;
+    background: #02A0FC;
+    border-radius: 5px;
+    height:2.5rem;
+    width:10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    position:absolute;
+    right:5%;
+    color:white;
+}
+
+@media(max-width:920px)
+{
+    .options{
+        width: 70%;
+    }
+    .option{
+        display:flex;
+        justify-content: space-evenly;
+        width:6rem;
+        font-size:small;
+    }
+    .createbtn{
+        height:2rem;
+        width:7rem;
+        right:4%;
+    }    
+}
+@media(max-width:673px){
+    .Navbar{
+        background: #FFFFFF;
+        display:flex;
+        height:3rem;
+        align-items: center;
+    }
+.options{
+    display:flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.option{
+    width:4rem;
+    font-size:6px;
+}
+.createbtn{
+    height:1rem;
+    width:3rem;
+    right:4%;
+    font-size:6px;
+}
+
+}
